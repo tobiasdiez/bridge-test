@@ -1,12 +1,9 @@
 import { defineNuxtConfig } from "@nuxt/bridge";
 
 export default defineNuxtConfig({
+  target: "static",
   bridge: {
     vite: true
   },
-  target: "static",
   ssr: true,
-  build: {
-    transpile: ["tslib", "vue-property-decorator"]
-  }
 });

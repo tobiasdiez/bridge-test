@@ -1,3 +1,6 @@
+import Vue from "vue"
+
 export default () => {
-  throw new Error("Error from plugin 1");
+  console.log(Vue)
+  //throw new Error("Error from plugin 1");
 };
